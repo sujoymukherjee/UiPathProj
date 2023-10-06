@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://bptravel.blueprism.com/createquote.html" ContentHash="Y2ZIWwSNX0q9J6-9g5pLLw" DesignTimeRectangle="1202, 921, 227, 47" ElementType="Text" FriendlyName="'Create Quote'" FullSelectorArgument="&lt;webctrl parentid='body' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='body' tag='SPAN' type='' aaname='Create Quote' check:text='Create Quote' /&gt;" Guid="06fc70f9-dcb1-4bf1-806d-12d2927f4032" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Create Quote' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0HM1na1IkaUS5Mk8UlTDboQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="0f9232ce0aba0a305a367a368d495cc0.png" xmlns="">0-BuWdItVckiMm1ov1hH0Sw</imageRef>
+</TargetAnchorable>

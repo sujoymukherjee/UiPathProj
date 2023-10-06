@@ -1,0 +1,247 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="RecorderDemo" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="606,1979.33333333333" sap2010:WorkflowViewState.IdRef="RecorderDemo_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="RecorderDemo" sap:VirtualizedContainerService.HintSize="476,1914.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: BP Travel - Log In" sap:VirtualizedContainerService.HintSize="434,1822.66666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="114fd4ce-ea2f-4f43-ae5c-e0d68228b2da" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1564.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,220" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="admin" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://bptravel.blueprism.com/" DesignTimeRectangle="997, 319, 433, 43" ElementType="InputBox" FriendlyName="'INPUT username'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="3016b5ad-33c8-4338-a939-40d0c3b84235" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAbUAAAAvCAYAAABkIFRMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIRSURBVHhe7dtba+JAGIDh/f8/bi9baFm1lpbEFTyQeCiFacaNWQ/xtjUfzwMfOAGvX2Yy+ZUAIAhRAyAMUQMgjJtRW1QfaVLW6eF1nZ7fq/T7z9IYY4z59nl6qw4tyk1a1h9tpfr1Ru1lVqdx8+f5ep82u8/2KQD8jNyi3KRxUTeN2rRPr11FbVRUabbctSsAuC/lcnuIW5+zqOUdWiloANy5crFL054dWxe14zs0ABiCUbNbWzXtOtVFLQctn1cCwBDMV/s0mZ1vxrqo5ZslLoUAMBR106zHpl2nuqjlK5MAMCSX7eqilr8FAIAhuWyXqAEwWKIGQBiiBkAYogZAGKIGQBiiBkAYogZAGKIGQBiiBkAYogZAGKIGQBiiBkAYogZAGKIGQBiiBkAYogZAGKIGQBiiBkAYogZAGKIGQBiiBkAYogZAGKIGQBiiBkAYogZAGKIGQBg3o/b0VrW/AGAYLtvVRe3hdZ02u892BQD3rW6a9di061QXtUlZp/l6364A4L7NV/s0mdXt6p8uaqv6I40LR5AADMO4qA/tOtVFLXuZbVK53LUrALhPxWKbpn837eq/s6hl47JqwrZtVwBwX4rFrmnV+bHj0VXUsmmzY8t/yOeV+UUcAPyk3KLcpFFR9e7QjnqjluVzyvwCLt8syVcm87cAxhhjzHfP83t1aFFu0uU7tEs3owYAw5LSF1NMWq94X4bVAAAAAElFTkSuQmCC" InformativeScreenshot="871edf3e4725de8b11d88173f42451f0.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Log In' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,220" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" Text="admin" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://bptravel.blueprism.com/" DesignTimeRectangle="997, 387, 433, 43" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='' /&gt;" Guid="13d3a1e2-ca69-4965-a5ec-31cd4262017b" ImageBase64="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" InformativeScreenshot="442c9b8ccac40f947284e64066eeba04.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Log In' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Log In'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://bptravel.blueprism.com/" DesignTimeRectangle="1202, 452, 227, 47" ElementType="Text" FriendlyName="'Log In'" FullSelectorArgument="&lt;webctrl parentid='body' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='body' tag='SPAN' type='' aaname='Log In' check:text='Log In' /&gt;" Guid="77b9b18d-b536-45b6-a5d6-704258e80d45" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOcAAAAzCAYAAABsWx8ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUESURBVHhe7d3/Txt1HMdx/xQ1xi+JmiU6E/UHTUw0zp+MiRmJX2I0Jn5jAiJT4hI35w8uBqdxLnEBxpTMuc2xrUxjBSrQhRW6ZQhzAyYKA/Z9MB1fxnh7rw+fg+NaQq/007tbXo/kEu561zZLn9zncy3rLUJEgcQ4iQKKcRIF1KJxNnQOScn2hDz9SVQKKn6XW9/Yw4ULlxwsq62e0BX6inWN6OJSpY1z7XcdUlrTIbsP/y3dg1f0ViLKFXSFvoqqElJem9RbF0qJ8+1tbbIj1qfXiMi06sY+KapO6LV5C+LEGbOGYRLlXVVDr3UGParXZs3F+VvnsBrKEpE/iq2zp3MOOhcnJqcYAxORP3bF+60TZLtec8SJq0e8+EPkn66BK7JqY1SvOeLE5V0i8tfqipj+yREn3n8hIn85O2ScRAHCOIkCinESBRTjJAooxkkUUIzTgPrkGevfcK/6bHKYDF8el0c+PKSeu3O5r2i/HD19Se9F+cI4DWCclAuM04CwxmmzI8WCn8kfjNMAxkm5wDgNyCbO6RszsrftH3ni41/l9jdnh5MryyLy0c5jcn5sQu+VCvFgnxXvHVTH3F1YJy9+2SJbfj4pd7z1U1a/IJaKE0NcDHWf29Qk50cnpLb5L3l83S9ym/W88dyf/axJTg2N6b0pW4zTAK9xjv43Ja99E1fHpFseKI1I8vRFvfc8bMNt6Y6xF5Nx4vbHrCjTPS6eV/cA/3hiORinAV7j/CJyQu3/sPVijx4flsnrN2RmRqRv5Kq8/FWruu2ZTxvk4tVJfYTIudFxdZbF2eqVr+NqXxyDY3uHx2RNZcLTc3DKNE7c/4PvR6SmqU/9ggE89pPro+q2DbuPq22UHcZpgJc4z1y6Jo+WH1Iv9kTvBb11Hl70GCYiQuff2FY29KrHeMkawl6bnNZb5y1n3ptpnE9tiKpfEm77EwPqsZ//PCb/TlzXW8krxmmAlzAa/xhRc8MXNrfI+FRqZPBDa7+6v3erZv9vmanpGXl1S1wFG+kYVNvc8hEn5pxj46nxLXU7ZYZxGuAljEz2de+DFzxe+AgAIaTDOMOPcRrAOBlnLjBOA7yEYQ9rCyqa084dwZ5f2sNazOMwn7urcJ/ET55T29wYZ/gxTgO8hGFfELpnTZ20/pka2mIXhD74PqkeY+OeTnWV1o1xhh/jNMBrGM63Ug60D2b0VkpbzwUVND50gP+IGBeTcMyQFfumui6514qDcYYb4zTAjnOpxX7xZvMhBIS42YoaZ1T3/ti2sqxe/ewlTjtK9/0hNARnY5z5wTgN8BonZPPxPRzzY7xfDYsRJI7De48HOwbVGRj3Yc9TM8E4g4Vx3qTsoTIuJlE4Mc4QK9uRVN+pgc+wYp4KGCJjDooz10Nr69W8lcKJcYYY5pPuIai93PnOPqk7MqD3pDBinCGGuS3e77y/+MBclPj59a2H+XUaNwHGSRRQjJMooBgnUUAxTqKAYpxEAZU2Tn4/J5H/nB3Oxclvtiby16LfbF2yPbHgz5OIKL92xfultKZdrznijHWflSIPH5gmotwqrDwiLSfO6jVHnFBem5TqJn5omijfvo2eknU7j+m1WQviBJw9qxp79BoRmbYt2iMljuGsLSVOwF89FFe3qzEwJqlElFvoCn1hKOs+Y9rSxgmYg2JyiqtHuLyL91+4cOGy/KXA6gldoa9mxxzTbdE4ichPIv8DWUOtIyCrGZMAAAAASUVORK5CYII=" InformativeScreenshot="04b8a15c9e14f661c78ff94b080d492b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Log In' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Create Quote'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://bptravel.blueprism.com/search.html" DesignTimeRectangle="487, 374, 147, 27" ElementType="Text" FriendlyName="'Create Quote'" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='A' type='' aaname='Create Quote' check:text='Create Quote' /&gt;" Guid="0b5790ee-81e6-40ee-9d82-8ae61838d380" ImageBase64="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" InformativeScreenshot="61e1503a36eb1b617281dafe16c1219a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Search' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NSelectItem DisplayName="Select Item 'From'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Italy - Venice (VCE)">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="50">
+                  <x:String></x:String>
+                  <x:String>Albania - Tirana (TIA)</x:String>
+                  <x:String>Andorra - Andorra (ALV)</x:String>
+                  <x:String>Austria - Graz (GRZ)</x:String>
+                  <x:String>Austria - Innsbruck (INN)</x:String>
+                  <x:String>Austria - Salzburg (SZG)</x:String>
+                  <x:String>Austria - Vienna (VIE)</x:String>
+                  <x:String>Belarus - Minsk (MSQ)</x:String>
+                  <x:String>Belgium - Antwerp (ANR)</x:String>
+                  <x:String>Belgium - Brussels (BRU)</x:String>
+                  <x:String>Belgium - Ghent (GNE)</x:String>
+                  <x:String>Belgium - Liege (LGG)</x:String>
+                  <x:String>Bulgaria - Sofia (SOF)</x:String>
+                  <x:String>Bulgaria - Varna (VAR)</x:String>
+                  <x:String>Bulgaria - Vidin (VID)</x:String>
+                  <x:String>Czech Republic - Prague (PRG)</x:String>
+                  <x:String>Denmark - Aarhus (AAR)</x:String>
+                  <x:String>Denmark - Copenhagen (CPH)</x:String>
+                  <x:String>Denmark - Esbjerg (EBJ)</x:String>
+                  <x:String>Estonia - Tallinn (QUF)</x:String>
+                  <x:String>Estonia - Tallinn (TLL)</x:String>
+                  <x:String>Finland - Helsinki (HEL)</x:String>
+                  <x:String>France - Bordeaux (BOD)</x:String>
+                  <x:String>France - Grenoble (GNB)</x:String>
+                  <x:String>France - Lyon (LYN)</x:String>
+                  <x:String>France - Marseille (MRS)</x:String>
+                  <x:String>France - Nantes (NTE)</x:String>
+                  <x:String>France - Nice (NCE)</x:String>
+                  <x:String>France - Paris (CDG)</x:String>
+                  <x:String>France - Paris (ORY)</x:String>
+                  <x:String>France - Strassburg (SXB)</x:String>
+                  <x:String>Georgia - Tbilisi (TBS)</x:String>
+                  <x:String>Germany - Berlin (BER)</x:String>
+                  <x:String>Germany - Cologne (CGN)</x:String>
+                  <x:String>Germany - Dortmund (DTM)</x:String>
+                  <x:String>Germany - Duesseldorf (DUS)</x:String>
+                  <x:String>Germany - Frankfurt (FRA)</x:String>
+                  <x:String>Germany - Hamburg (HAM)</x:String>
+                  <x:String>Germany - Munich (MUC)</x:String>
+                  <x:String>Greece - Athens (HEW)</x:String>
+                  <x:String>Greece - Chania (CHQ)</x:String>
+                  <x:String>Greece - Corfu (CFU)</x:String>
+                  <x:String>Hungary - Budapest (BUD)</x:String>
+                  <x:String>Iceland - Reykjavik (KEF)</x:String>
+                  <x:String>Ireland - Cork (ORK)</x:String>
+                  <x:String>Ireland - Dublin (DUB)</x:String>
+                  <x:String>Ireland - Shannon (SNN)</x:String>
+                  <x:String>Italy - Bologna (BLQ)</x:String>
+                  <x:String>Italy - Brescia (VBS)</x:String>
+                  <x:String>Italy - Florence (FLR)</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="https://bptravel.blueprism.com/createquote.html" DesignTimeRectangle="997, 313, 432, 42" ElementType="DropDown" FriendlyName="'Albania -'" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' aaname='' /&gt;" Guid="4debaf38-76b6-4e5f-8376-0b90bbe3d0d7" InformativeScreenshot="06629f1c954222bd667d82b9b9fed1f0.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Create Quote' /&gt;" SearchSteps="FuzzySelector">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="742, 307, 226, 56" ElementType="Text" FriendlyName="'From'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TD' type='' aaname='From' check:text='From' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOYAAAA8CAYAAAByz8byAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALKSURBVHhe7dq/axphGMDx/gH9KxxdOzlJlpKxZCmZ3OoShAYcHFKhUBxUKMWhQx1KaIc6CHGRUEiWDEKWutTikCyBgxAkHWpxeXo/3ldPezZi7fUxfj/wLu+d5y1f7707HwgAdQgTUIgwAYUIE1CIMAGFCBNQiDABhQgTUIgwAYUIE1CIMAGFCBNQiDABhQgTUIgwAYUIE1CIMAGFCBNQiDABhQgTUIgwAYUIE1CIMAGFosPs1uXho+d3j73P4piPAFgdwgQU+nOYla6ZABAnwgQUWlmYnUqwvK16H/nel1alLFvpYG56yTsS5/yT5J4VJOltc0dypyS5Dx25/Gl2mdKVqr9fXTpyK1/adcnu5iXhz+Vla78urYsfwa7XXWm437v92HxvuiDZyql8izwuoNfKw8xW3suTlAnDjnGYjhwXC9PbwiNdltaVv2OIDTMvSRv67EiV5aBSGoc+OxLcC2PNLP/wZyZaG6Y3totN6VyNzJYJ56gU7LNTk0bvRoZmfnjdl4YNNtOUSzMfsGG6I12SarsvA3sFdK/M7/bMNnckdmty2HXMcUcy6DUl4/9IvJDDC38SWAsrDzN3cmtmZrmB+ZGUpPHbVdHjSMNEdnAejtqGWZPjiCXp8OxtcD7FMxmYuTB7Xpn2jZkB9Ps395hReh8l5R2zEB2Qx0aWePPVzHjC95gR7Lm+6oyvwGH2Kv30iMUs1kd8YS5yzMh9Fgxzzn0kYWIdESagUPxL2f3TuUvZwclr/xhLLWUJE/dIfGF6gfkPf17OeUJ618MfwsTmiDHMSSTe65LJa41FX5cQJjZHrGF6V8Xl/2BAmNgcMYfp+Zu/5EUgTNxD0WEC+K8IE1CIMAGFCBNQiDABhQgTUIgwAYUIE1CIMAGFCBNQiDABhQgTUIgwAYUIE1CIMAGFCBNQiDABhQgTUIgwAYUIE1CIMAF1RH4BoIGxptHx2oAAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NSelectItem DisplayName="Select Item 'To'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="Austria - Vienna (VIE)">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="50">
+                  <x:String></x:String>
+                  <x:String>Albania - Tirana (TIA)</x:String>
+                  <x:String>Andorra - Andorra (ALV)</x:String>
+                  <x:String>Austria - Graz (GRZ)</x:String>
+                  <x:String>Austria - Innsbruck (INN)</x:String>
+                  <x:String>Austria - Salzburg (SZG)</x:String>
+                  <x:String>Austria - Vienna (VIE)</x:String>
+                  <x:String>Belarus - Minsk (MSQ)</x:String>
+                  <x:String>Belgium - Antwerp (ANR)</x:String>
+                  <x:String>Belgium - Brussels (BRU)</x:String>
+                  <x:String>Belgium - Ghent (GNE)</x:String>
+                  <x:String>Belgium - Liege (LGG)</x:String>
+                  <x:String>Bulgaria - Sofia (SOF)</x:String>
+                  <x:String>Bulgaria - Varna (VAR)</x:String>
+                  <x:String>Bulgaria - Vidin (VID)</x:String>
+                  <x:String>Czech Republic - Prague (PRG)</x:String>
+                  <x:String>Denmark - Aarhus (AAR)</x:String>
+                  <x:String>Denmark - Copenhagen (CPH)</x:String>
+                  <x:String>Denmark - Esbjerg (EBJ)</x:String>
+                  <x:String>Estonia - Tallinn (QUF)</x:String>
+                  <x:String>Estonia - Tallinn (TLL)</x:String>
+                  <x:String>Finland - Helsinki (HEL)</x:String>
+                  <x:String>France - Bordeaux (BOD)</x:String>
+                  <x:String>France - Grenoble (GNB)</x:String>
+                  <x:String>France - Lyon (LYN)</x:String>
+                  <x:String>France - Marseille (MRS)</x:String>
+                  <x:String>France - Nantes (NTE)</x:String>
+                  <x:String>France - Nice (NCE)</x:String>
+                  <x:String>France - Paris (CDG)</x:String>
+                  <x:String>France - Paris (ORY)</x:String>
+                  <x:String>France - Strassburg (SXB)</x:String>
+                  <x:String>Georgia - Tbilisi (TBS)</x:String>
+                  <x:String>Germany - Berlin (BER)</x:String>
+                  <x:String>Germany - Cologne (CGN)</x:String>
+                  <x:String>Germany - Dortmund (DTM)</x:String>
+                  <x:String>Germany - Duesseldorf (DUS)</x:String>
+                  <x:String>Germany - Frankfurt (FRA)</x:String>
+                  <x:String>Germany - Hamburg (HAM)</x:String>
+                  <x:String>Germany - Munich (MUC)</x:String>
+                  <x:String>Greece - Athens (HEW)</x:String>
+                  <x:String>Greece - Chania (CHQ)</x:String>
+                  <x:String>Greece - Corfu (CFU)</x:String>
+                  <x:String>Hungary - Budapest (BUD)</x:String>
+                  <x:String>Iceland - Reykjavik (KEF)</x:String>
+                  <x:String>Ireland - Cork (ORK)</x:String>
+                  <x:String>Ireland - Dublin (DUB)</x:String>
+                  <x:String>Ireland - Shannon (SNN)</x:String>
+                  <x:String>Italy - Bologna (BLQ)</x:String>
+                  <x:String>Italy - Brescia (VBS)</x:String>
+                  <x:String>Italy - Florence (FLR)</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="https://bptravel.blueprism.com/createquote.html" DesignTimeRectangle="997, 369, 432, 42" ElementType="DropDown" FriendlyName="'Albania -'" FullSelectorArgument="&lt;webctrl id='to' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='to' tag='SELECT' type='' aaname='' /&gt;" Guid="49433e6f-db82-477a-98a1-cf42aa833ee3" InformativeScreenshot="b3fce572e84f4b6645be5cf602293427.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Create Quote' /&gt;" SearchSteps="FuzzySelector">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="742, 362, 226, 56" ElementType="Text" FriendlyName="'To'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' aaname='To' check:text='To' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOYAAAA8CAYAAAByz8byAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHRSURBVHhe7dqxahRRGIZhL8Cr8BasrEJ6C7u9BBsJWChsK0gKDVik1ELsNNXaSBCsLLYJZNsUphEWgggpdLtfNzmikXWdMKN8xfPANP/MlC9zOGeuFBBHmBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBBImBDoQpjzyXZdvX73ktezmrb3gWEIEwJ1WMrO69Wd8wh3Zm0E/FPChEDDhXlyUE/H27W50Za4G+MajV/W/scv7QGgq0HCPH63W5vLGFde9+r2m3l7Euiif5gnb2t0FuC4tiZH9XnR5otPdTj5EeyDevGhzYG/6h3m9PH5vdFk9VfxuO30Xnt4UF/bDFivZ5hHtXtzee9J7Z+20e8W07q//GreeF6HbQSs1zPMWe0so1t7ltnlGeBXwoRAAy1lH9XrPy1lT9/X1jJMS1norGeYPzd/bu2t3na1+QOX1zvMC8cle7OaOy6B3vqH+Z0fDGBYg4R5xi95MJgOYQL/mzAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhkDAhTtU3/pfUgg5WoF0AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Checkbox'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NCheck_1">
+              <uix:NCheck.Target>
+                <uix:TargetAnchorable BrowserURL="https://bptravel.blueprism.com/createquote.html" DesignTimeRectangle="1016, 491, 20, 20" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' aaname='' /&gt;" Guid="7998d0ee-cef6-4d5f-844a-22e95e30ee21" InformativeScreenshot="a1a9f998c7ffc0a407bfee346a3d0eb4.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Create Quote' /&gt;" SearchSteps="FuzzySelector" />
+              </uix:NCheck.Target>
+            </uix:NCheck>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="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" InformativeScreenshot="21b312e6055776396f82b5afa3a0553f.png" Selector="&lt;html app='msedge.exe' title='BP Travel - Log In'/&gt;" Url="https://bptravel.blueprism.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

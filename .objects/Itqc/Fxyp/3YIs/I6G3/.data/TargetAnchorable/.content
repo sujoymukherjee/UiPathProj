@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://bptravel.blueprism.com/" ContentHash="dJA2ctaJMUOteIP9Ge8NYA" DesignTimeRectangle="997, 387, 433, 43" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='' /&gt;" Guid="08cffa09-419b-47eb-be71-fbbf74c93a18" ScopeSelectorArgument="&lt;html app='msedge.exe' title='BP Travel - Log In' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0Xo59qqUPbkCJJqcsLbquRQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5729988011ed3af063ce873e296852d0.png" xmlns="">0KFvl8B5a3kG_OPa7DRpdNA</imageRef>
+</TargetAnchorable>

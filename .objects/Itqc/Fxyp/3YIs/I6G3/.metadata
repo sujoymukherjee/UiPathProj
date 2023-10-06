@@ -1,0 +1,13 @@
+﻿{
+  "Id": "I6G3VplEG063iQfqsqi27Q",
+  "Reference": "Ko3aoLpy-kqsodwhbKxu9A/I6G3VplEG063iQfqsqi27Q",
+  "ParentRef": "Ko3aoLpy-kqsodwhbKxu9A/3YIsfmD9lEmTXVJSjejyqQ",
+  "Name": "INPUT password",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Created": "2023-10-04T04:19:38.3055583Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-10-04T04:19:38.3055583Z"
+}
